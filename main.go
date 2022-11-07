@@ -3,6 +3,11 @@ package main
 import(
 	"github.com/spf13/viper"
 	"github.com/sirupsen/logrus"
+
+	"github.com/romanSeleznev/markList/server"
+	"github.com/romanSeleznev/markList/repository"
+	"github.com/romanSeleznev/markList/service"
+	"github.com/romanSeleznev/markList/handler"
 )
 
 func main() {
